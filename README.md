@@ -34,6 +34,8 @@ cd /work2/yuka97524/Temma/26evidenceModeler
 evm_create_sh.sh [absolute path to the file in PREPARATION] [absolute path to execute_EVM_commands.pl]
 ```
 
+Here, you might have to check if a directory named `execute_EVM_commands` was successfully created in the parent directory, and if splited job scripts for PBS were properly excuted by `qstat`.
+
 > EXAMPLE
 ```
 evm_create_sh.sh /work2/kataoka/gene_prediction_azami/evm/pbs_job_comment.txt /home/kataoka/anaconda3/envs/evm/opt/evidencemodeler-1.1.1/EvmUtils/execute_EVM_commands.pl
