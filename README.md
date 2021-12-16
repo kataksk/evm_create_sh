@@ -34,7 +34,7 @@ cd /work2/yuka97524/Temma/26evidenceModeler
 evm_create_sh.sh [absolute path to the file in PREPARATION] [absolute path to execute_EVM_commands.pl]
 ```
 
-Here, you might have to check if a directory named `execute_EVM_commands` was successfully created in the parent directory, and if splited job scripts for PBS were properly excuted by `qstat`.
+Here, you might have to check whether a directory named `execute_EVM_commands` was successfully created in the parent directory, and whether splited job scripts for PBS in it were properly excuted by `qstat`.
 
 > EXAMPLE
 ```
