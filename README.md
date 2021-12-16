@@ -6,9 +6,10 @@ This script separately executes (qsub) script files splited by `write_EVM_comman
 
 Prepare a text file describing a common part of job script file for PBS.  
 
-The file is like:
+The file is like:  
+  
 
-pbs_job_comment.txt  
+__pbs_job_comment.txt__  
 ```
 #!/bin/bash -f
 
