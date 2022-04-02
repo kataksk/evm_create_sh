@@ -11,3 +11,4 @@ conda activate evm
 
 PWD=`pwd`
 cd $PWD
+echo $PWD
