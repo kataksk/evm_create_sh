@@ -22,11 +22,12 @@ __pbs_job_comment.txt__
 source ~/.bashrc
 conda activate evm
 
-cd /work2/yuka97524/Temma/26evidenceModeler
+cd /work2/yuka97524/Temma/26evidenceModeler/evm_create_sh
 
 ```
 
-`/work2/yuka97524/Temma/26evidenceModeler` is a directory where files such as `x...` and `partitions_list.out` exist.  
+`/work2/yuka97524/Temma/26evidenceModeler/evm_create_sh` is the directory of this repository.
+The repository is assumed to be in the directory where files such as `x...` and `partitions_list.out` exist.  
 
 > USAGE
 
