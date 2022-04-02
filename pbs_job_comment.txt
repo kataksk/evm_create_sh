@@ -1,0 +1,13 @@
+#!/bin/bash -f
+
+#PBS -l nodes=1:ppn=1:yuri
+#PBS -q yuri
+#PBS -N EVM
+#PBS -j eo
+#PBS -m ae
+
+source ~/.bashrc
+conda activate evm
+
+PWD=`pwd`
+cd $PWD
