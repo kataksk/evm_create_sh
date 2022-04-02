@@ -9,4 +9,4 @@
 source ~/.bashrc
 conda activate evm
 
-cd 
+cd \
